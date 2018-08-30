@@ -1,7 +1,6 @@
-var express = require("express");
-var mongoose = require("mongoose");
-var exphbs = require("express-handlebars");
-var bodyParser = require("body-parser");
+
+// var db = require('../models');
+
 
 
 
@@ -19,6 +18,5 @@ $("#scrapeArticles").on("click", function(event){
 $("#clearDb").on("click", function(event){
   console.log("Runnning bear")
   event.preventDefault();
-
-  db.mongoHeadlines.drop(event)
+  // db.Headline.drop()
 })

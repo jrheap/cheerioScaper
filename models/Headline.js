@@ -45,3 +45,4 @@ var Headline = mongoose.model("Headline", headlineSchema);
 
 // Export the Headline model
 module.exports = Headline;
+
