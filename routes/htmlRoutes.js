@@ -10,6 +10,9 @@ module.exports = function (app) {
 
   })
   app.get("/saved", function (req, res) {
-    res.render("saved", {})
+    db.Headline.find({saved: true}).then((response) => {
+      console.log(response);
+      res.render("saved", {articles:response})
+    })
   })
 }
