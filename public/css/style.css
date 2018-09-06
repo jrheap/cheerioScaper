@@ -1,9 +1,7 @@
 body{
-    background-image: url("../images/carson-smith-200675-unsplash.jpg");
-    height: 70vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    z-index: -1;
+    background-color: darkblue;
+}
+
+#randomNav{
+    background-color: silver;
 }
